@@ -2,9 +2,11 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        int number = 100;
+        int minNumber = 5;
+        int maxNumber = 96;
+        int intervalStep = 7;
 
-        for (int i = 5; i <= number; i+=7)
+        for (int i = minNumber; i <= maxNumber; i+=intervalStep)
         {
             Console.WriteLine(i);
         } 
