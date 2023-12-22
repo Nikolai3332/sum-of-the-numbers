@@ -2,14 +2,12 @@ internal class Program
 {
     private static void Main(string[] args)
     {
-        for (int i = 5; i < 100; i+=7)
+        int number = 100;
+
+        for (int i = 5; i <= number; i+=7)
         {
-            if (i == 0)
-            {
-                continue;
-            }
             Console.WriteLine(i);
-            Console.ReadKey();
-        }
+        } 
+        Console.ReadKey();
     }
 }
